@@ -11,6 +11,15 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="static/css/screen.min.css"><link rel="stylesheet" href="static/css/custom.min.css">
     </head>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+        <a href="programs_K8.html">K-8</a><br>
+        <a href="programs_HSTUTORING.html">High School Tutoring</a><br>
+        <a href="programs_AP.html">AP Prep</a><br>
+        <a href="programs_SAT.html">SAT Prep</a><br>
+        <a href="programs_APPS.html">College Applications</a><br>
+        <a href="programs.html">College Tutoring</a>
+    </div>
     <body>
         <header class="page-header">
             <div class="page-header__inner">
@@ -18,7 +27,7 @@
                 <nav class="nav page-header__nav">
                     <a class="page-header__nav-link" href="index.html">Home</a>
                     <a class="page-header__nav-link" href="about.html">About Us</a>
-                    <a class="page-header__nav-link page-header__nav-link_selected">Programs</a>
+                    <a class="page-header__nav-link page-header__nav-link_selected" onclick="openNav()">Programs</a>
                     <a class="page-header__nav-link" href="#">Events</a>
                     <a class="page-header__nav-link" href="#">Gallery</a>
                     <a class="page-header__nav-link" href="#">Contact Us</a>
@@ -67,5 +76,17 @@
                 <div class="copyright">Unlimited Academy © 2013 All rights Reserved</div>
             </div>
         </footer>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "350px";
+                document.getElementById("main").style.marginLeft = "350px";
+                document.getElementById("main").style.filter = "brightness(50%)";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+                document.getElementById("main").style.filter = "brightness(100%)";
+            }
+        </script>
     </body>
 </html>
