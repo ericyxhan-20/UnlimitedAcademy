@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Programs | Unlimited Academy</title>
+        <meta name="description" content="Page-specific description"><meta name="keywords" content="Page-specific keywords">
+        <link rel="shortcut icon" href="static/images/favicons/favicon.ico">
+        <link rel="shortcut icon" href="static/images/favicons/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="static/images/favicons/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="static/images/favicons/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="static/css/screen.min.css"><link rel="stylesheet" href="static/css/custom.min.css">
+    </head>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+        <a href="programs_K8.html">K-8</a><br>
+        <a href="programs_HSTUTORING.html">High School Tutoring</a><br>
+        <a href="programs_AP.html">AP Prep</a><br>
+        <a href="programs_SAT.html">SAT Prep</a><br>
+        <a href="programs_APPS.html">College Applications</a><br>
+        <a href="programs.html">College Tutoring</a>
+    </div>
+    <body>
+        <div id="main">
+            <header class="page-header">
+                <div class="page-header__inner">
+                    <h1 class="logo page-header__logo">Unlimited Academy<span>Unlimited Potential</span></h1>
+                    <nav class="nav page-header__nav">
+                        <a class="page-header__nav-link" href="index.html">Home</a>
+                        <a class="page-header__nav-link" href="about.html">About Us</a>
+                        <a class="page-header__nav-link" onclick="openNav()">Programs</a>
+                        <a class="page-header__nav-link page-header__nav-link_selected">Events</a>
+                        <a class="page-header__nav-link" href="#">Gallery</a>
+                        <a class="page-header__nav-link" href="#">Contact Us</a>
+                    </nav>
+                </div>
+            </header>
+    
+    
+            <section class="promo2">
+                Important Events
+            </section>
+    
+    
+            <footer class="page-footer">
+                <div class="page-footer__inner">
+                    <nav class="nav page-footer__nav">
+                        <a class="page-footer__nav-link" href="index.html">Home</a>
+                        <a class="page-footer__nav-link" href="about.html">About Us</a>
+                        <a class="page-footer__nav-link page-footer__nav-link_selected">Projects</a>
+                        <a class="page-footer__nav-link" href="#">Events</a>
+                        <a class="page-footer__nav-link" href="#">Gallery</a>
+                        <a class="page-footer__nav-link" href="#">Contact Us</a>
+                    </nav>
+                    <div class="widgets">
+                        <div class="widget widget_social">
+                            <h3 class="widget__title">Follow Us</h3>
+                            <a class="widget__icon widget__icon_fb" href="#">Facebook</a>
+                            <a class="widget__icon widget__icon_tw" href="#">Twitter</a>
+                            <a class="widget__icon widget__icon_gplus" href="#">Google+</a>
+                        </div>
+                        <div class="widget widget_feed">
+                            <h3 class="widget__title">News letter</h3>
+                            <form class="subscribe-form" action="#" method="post">
+                                <input id="email-subscribe" type="text" name="email" value="Enter your email"> 
+                                <label for="#email-subscribe"></label> 
+                                <input type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                        <div class="widget widget_contact">
+                            <h3 class="widget__title">Contact Us</h3>
+                            <p class="widget__text">6 Laketrail Cove</p>
+                            <p class="widget__text">Buena Park, CA</p>
+                            <p class="widget__text">ph : (562)418-9620</p>
+                        </div>
+                    </div>
+                    <div class="copyright">Unlimited Academy © 2013 All rights Reserved</div>
+                </div>
+            </footer>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "350px";
+                document.getElementById("main").style.marginLeft = "350px";
+                document.getElementById("main").style.filter = "brightness(50%)";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+                document.getElementById("main").style.filter = "brightness(100%)";
+            }
+        </script>
+    </body>
+</html>

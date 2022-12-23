@@ -8,8 +8,8 @@
         <meta name="description" content="Page-specific description"><meta name="keywords" content="Page-specific keywords">
         <link rel="shortcut icon" href="static/images/favicons/favicon.ico">
         <link rel="shortcut icon" href="static/images/favicons/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" href="static/images/favicons/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" href="static/images/favicons/favicon.ico">
+        <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="static/css/screen.min.css"><link rel="stylesheet" href="static/css/custom.min.css">
     </head>
@@ -26,7 +26,6 @@
 
     <body>
         <div id="main">
-            <div id="main">
             <header class="page-header">
                 <div class="page-header__inner">
                     <h1 class="logo page-header__logo">Unlimited Academy<span>Unlimited Potential</span></h1>
@@ -34,57 +33,281 @@
                         <a class="page-header__nav-link" href="index.html">Home</a>
                         <a class="page-header__nav-link page-header__nav-link_selected">About Us</a>
                         <a class="page-header__nav-link" onclick="openNav()">Programs</a>
-                        <a class="page-header__nav-link" href="#">Events</a>
+                        <a class="page-header__nav-link" href="events.html">Events</a>
                         <a class="page-header__nav-link" href="#">Gallery</a>
                         <a class="page-header__nav-link" href="#">Contact Us</a>
                     </nav>
                 </div>
             </header>
-            
-            <section class="promo2">
+            <section id="main" class="promo2">
                 <div class="row">
                     <div class="column">
-                        <div id="eric" class="card">
-                            <img src="static/images/eric_portrait.png" alt="Eric" style="width:100%">
-                            <div class="container">
-                                <h2>Eric Han</h2>
-                                <p class="title">CEO, Head of Computer Science</p>
-                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p>eyhan@caltech.edu</p>
-                                <p><button class="button" onclick="flip()">More</button></p>
+                        <div class="card">
+                            <div class="card_face card__face--front">
+                                <img src="static/images/eric_portrait.png" alt="Eric" style="width:100%">
+                                <div class="container">
+                                    <h2>Eric Han</h2>
+                                    <p class="title">CEO, Head of Computer Science</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>eyhan@caltech.edu</p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                            <div class="card_face card__face--back">
+                                <div class="container">
+                                    <h2>Eric Han</h2>
+                                    <p class="title">CTO, Head of ur mom</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>eyhan@caltech.edu</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">More</button></p>
+                                </div>
                             </div>
                         </div>
                     </div>
         
                     <div class="column">
                         <div class="card">
-                            <img src="static/images/dennis_portrait.png" alt="Dennis" style="width:100%;">
-                            <div class="container">
-                                <h2>Dennis Raush</h2>
-                                <p class="title">Head of Physics</p>
-                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p>draush@caltech.edu</p>
-                                <p><button class="button">More</button></p>
+                            <div class="card_face card__face--front">
+                                <img src="static/images/dennis_portrait.png" alt="Dennis" style="width:100%;">
+                                <div class="container">
+                                    <h2>Dennis Raush</h2>
+                                    <p class="title">Head of Physics</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>draush@caltech.edu</p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                            <div class="card_face card__face--back">
+                                <div class="container">
+                                    <h2>Dennis Raush</h2>
+                                    <p class="title">Head of Head</p>
+                                    <p>AP Physics 1/2, AP Physics C, SAT, ACT</p>
+                                    <p>draush@caltech.edu</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">Back</button></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="column">
                         <div class="card">
-                            <img src="static/images/krishn_portrait.png" alt="Krishn" style="width:100%">
-                            <div class="container">
-                                <h2>Krishn Patel</h2>
-                                <p class="title">Computer Science Teacher</p>
-                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p>krishnpat15@gmail.com</p>
-                                <p><button class="button">More</button></p>
+                            <div class="card_face card__face--front">
+                                <img src="static/images/krishn_portrait.png" alt="Krishn" style="width:100%">
+                                <div class="container">
+                                    <h2>Krishn Patel</h2>
+                                    <p class="title">Computer Science Teacher</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>krishnpat15@gmail.com</p>
+                                    <p><button class="button">More</button></p>
+                                </div>
                             </div>
+                            <div class="card_face card__face--back">
+                                <div class="container">
+                                    <h2>Krishn Patel</h2>
+                                    <p class="title">Computer Science Teacher</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>krishnpat15@gmail.com</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column" style="opacity: 0; position:relative;left: -1000px;">
+                        <div class="card">
+                                <div class="container">
+                                    <h2>Dennis Raush</h2>
+                                    <p class="title">Head of Physics</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>draush@caltech.edu</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card_face card__face--front">
+                                <img src="static/images/eric_portrait2.png" alt="Eric" style="width:100%">
+                                <div class="container">
+                                    <h2>Eric Han</h2>
+                                    <p class="title">CEO, Head of Computer Science</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>eyhan@caltech.edu</p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                            <div class="card_face card__face--back">
+                                <div class="container">
+                                    <h2>Eric Han</h2>
+                                    <p class="title">CTO, Head of ur mom</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>eyhan@caltech.edu</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="column">
+                        <div class="card">
+                            <div class="card_face card__face--front">
+                                <img src="static/images/dennis_portrait.png" alt="Dennis" style="width:100%;">
+                                <div class="container">
+                                    <h2>Dennis Raush</h2>
+                                    <p class="title">Head of Physics</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>draush@caltech.edu</p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                            <div class="card_face card__face--back">
+                                <div class="container">
+                                    <h2>Dennis Raush</h2>
+                                    <p class="title">Head of Head</p>
+                                    <p>AP Physics 1/2, AP Physics C, SAT, ACT</p>
+                                    <p>draush@caltech.edu</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">Back</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="column">
+                        <div class="card">
+                            <div class="card_face card__face--front">
+                                <img src="static/images/krishn_portrait2.png" alt="Krishn" style="width:100%">
+                                <div class="container">
+                                    <h2>Krishn Patel</h2>
+                                    <p class="title">Computer Science Teacher</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>krishnpat15@gmail.com</p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                            <div class="card_face card__face--back">
+                                <div class="container">
+                                    <h2>Krishn Patel</h2>
+                                    <p class="title">Computer Science Teacher</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>krishnpat15@gmail.com</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">More</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column" style="opacity: 0; position:relative;left: -1000px;">
+                        <div class="card">
+                                <div class="container">
+                                    <h2>Dennis Raush</h2>
+                                    <p class="title">Head of Physics</p>
+                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                    <p>draush@caltech.edu</p>
+                                    <p style="margin-top:42px;"> Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                        Here is some more text that describes me lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem.
+                                    </p>
+                                    <p><button class="button">More</button></p>
+                                </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
-            <footer id="main" class="page-footer">
+            <footer class="page-footer">
                 <div class="page-footer__inner">
                     <nav class="nav page-footer__nav">
                         <a class="page-footer__nav-link page-footer__nav-link_selected">Home</a>
@@ -132,6 +355,10 @@
                 document.getElementById("main").style.marginLeft= "0";
                 document.getElementById("main").style.filter = "brightness(100%)";
             }
+            var cards = document.querySelectorAll('.card');
+            [...cards].forEach((card)=>{
+                card.addEventListener( 'click', function(){card.classList.toggle('is-flipped');});
+            });
         </script>
     </body>
 </html>
