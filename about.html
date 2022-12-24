@@ -8,8 +8,8 @@
         <meta name="description" content="Page-specific description"><meta name="keywords" content="Page-specific keywords">
         <link rel="shortcut icon" href="static/images/favicons/favicon.ico">
         <link rel="shortcut icon" href="static/images/favicons/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
-        <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="static/images/favicons/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="static/images/favicons/favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="static/css/screen.min.css"><link rel="stylesheet" href="static/css/custom.min.css">
     </head>
@@ -345,20 +345,34 @@
         </div>
 
         <script>
+            var cards = document.querySelectorAll('.card');
+            arr=[];
+            j=0;
+            [...cards].forEach((card)=>{
+                arr[j] = function(){card.classList.toggle('is-flipped');}
+                card.addEventListener('click', arr[j]);
+                j+=1;
+            });
             function openNav() {
                 document.getElementById("mySidenav").style.width = "350px";
                 document.getElementById("main").style.marginLeft = "350px";
                 document.getElementById("main").style.filter = "brightness(50%)";
+                i=0;
+                [...cards].forEach((card)=>{
+                    card.removeEventListener('click', arr[i]);
+                    i+=1;
+                });
             }
             function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft= "0";
-                document.getElementById("main").style.filter = "brightness(100%)";
+                document.getElementById("mySidenav").style.width = "0px";
+                document.getElementById("main").style.marginLeft= "0px";
+                document.getElementById("main").style.filter = "none";
+                i=0;
+                [...cards].forEach((card)=>{
+                    card.addEventListener('click', arr[i]);
+                    i+=1;
+                });
             }
-            var cards = document.querySelectorAll('.card');
-            [...cards].forEach((card)=>{
-                card.addEventListener( 'click', function(){card.classList.toggle('is-flipped');});
-            });
         </script>
     </body>
 </html>
