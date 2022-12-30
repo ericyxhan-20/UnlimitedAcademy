@@ -71,11 +71,22 @@ html{box-sizing: border-box;}
 .container {
     padding: 0 16px;
 }
+.row {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+#show {
+    display: block;
+  }
 .container::after, 
 .row::after {
+    padding-bottom: 1cm;
     content: "";
     clear: both;
-    display: table;
 }
 .title {
     font-size: large;
