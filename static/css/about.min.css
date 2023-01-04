@@ -55,8 +55,8 @@ img{
 }
 .gallery .gallery-filter .filter-item.active{
 	color: white;
-	border-color : #16b5ef;
-  background: #16b5ef;
+	border-color : #9b242d;
+  background: #9b242d;
 }
 .gallery .gallery-item{
 	width: 33.3%;
