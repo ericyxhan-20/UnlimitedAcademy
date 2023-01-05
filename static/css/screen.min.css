@@ -229,7 +229,7 @@ html{box-sizing: border-box;}
 @media screen and (max-width:960px){
   .page-header__inner{padding:0 10px}
   .page-header__logo{display:block;margin:auto;text-align:center;float:none}
-  .page-header__nav{margin:0 auto;text-align:center;float:none}
+  .page-header__nav{margin-top:10px;text-align:center;float:none}
   .promo{min-height:400px;padding:100px 0}
   .promo {
     height:auto;
