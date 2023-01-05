@@ -276,9 +276,22 @@ html{box-sizing: border-box;}
   .widget_social{width:100%;float:none;text-align:center;clear:both}
   .widget_feed{width:100%;float:none;text-align:center;clear:both}
 }
+td{
+  vertical-align:top;
+}
 .events-list {
-    width: 60%;
+    width: 50%;
     font-size: 1.1em;
+  }
+  @media screen and (max-width:2480px){
+    .events-list {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width:1180px){
+    .events-list {
+      width: 100%;
+    }
   }
   
   .events-list tr td {

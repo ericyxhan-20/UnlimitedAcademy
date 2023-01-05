@@ -294,31 +294,58 @@ img{
   font-size:min(2.5vw,22px);
 }
 .card-info{
-  line-height:min(.8vw, 10px);
+  line-height:min(.8vw, 15px);
+  font-weight:300;
+  font-size:min(1.5vw,16px);
+}
+.card-info1{
+  line-height:min(30%, 25px);
   font-weight:300;
   font-size:min(1.5vw,16px);
 }
 .card-desc{
+  margin-top:-10px;
   font-size:min(1.4vw,18px);
 }
 @media screen and (max-width: 1000px){
+  .title{
+    font-size:2.5vw;
+  }
   .card-info{
-    line-height:2vw;
-    font-size:16px;
+    line-height:60%;
+    font-size:2vw;
+  }
+  .card-info1{
+    line-height:40%;
+    font-size:2vw;
   }
   .card-p{
-    line-height:0.5;
-    font-size:max(3vw,26px);
+    font-size:min(3vw,26px);
   }
   .p{
-    line-height:2vw;
+    line-height:1vw;
   }
   .card-desc{
     font-size:2vw;
   }
 }
 @media screen and (max-width:700px){
-  .card-desc{
+  .title{
+    font-size:3.5vw;
+  }
+  .card-info{
+    line-height:2vw;
+    font-size:max(3vw,16px);
+  }
+  .card-info1{
+    line-height: 1vw;
     font-size:3vw;
+  }
+  .card-p{
+    font-size:min(4.5vw,32px);
+  }
+  .card-desc{
+    margin-top: -1vw;
+    font-size:max(3.5vw, 16px);
   }
 }
