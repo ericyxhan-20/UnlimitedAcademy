@@ -23,7 +23,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 @media screen and (max-width: 550px) {
   .promo {
-    height:auto;
+    height:550px;;
     background-size:120vw 600px;
   }
 }
