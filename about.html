@@ -30,7 +30,8 @@
                     <h1 class="logo page-header__logo">Unlimited Academy<span>Unlimited Potential</span></h1>
                     <nav class="nav page-header__nav">
                         <a class="page-header__nav-link" href="index.html">Home</a>
-                        <a class="page-header__nav-link page-header__nav-link_selected">About Us</a>
+                        <a class="page-header__nav-link" href="info.html">About Us</a>
+                        <a class="page-header__nav-link page-header__nav-link_selected">Our Team</a>
                         <a class="page-header__nav-link" onclick="openNav()">Programs</a>
                         <a class="page-header__nav-link" href="events.html">Events</a>
                         <a class="page-header__nav-link" href="contact.html">Contact Us</a>
@@ -43,13 +44,16 @@
                         <div class="gallery-filter">
                             <span class="filter-item active" data-filter="all">ALL</span>
                             <span class="filter-item" data-filter="cs">CS</span>
-                            <span class="filter-item" data-filter="standardized">Physics</span>
-                            <span class="filter-item" data-filter="ap">Math</span>
-                    <span class="filter-item" data-filter="phys">SAT/ACT</span>
+                            <span class="filter-item" data-filter="ph">Physics</span>
+                            <span class="filter-item" data-filter="ma">Math</span>
+                            <span class="filter-item" data-filter="ch">Chemistry</span>
+                            <span class="filter-item" data-filter="bi">Biology</span>
+                            <span class="filter-item" data-filter="st">SAT/ACT</span>
+                            <span class="filter-item" data-filter="cc">Counseling</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="card" class="gallery-item shoe">
+                        <div id="card" class="gallery-item cs cc">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
                                     <img src="static/images/eric_portrait3.png" alt="Avatar" style="width:100%;">
@@ -69,9 +73,9 @@
                                         <p class="card-info1">AP Computer Science Principles</p>
                                         <p class="card-info1">College Counseling</p>
                                         <!-- <p class="card-info">eyhan@caltech.edu</p> -->
-                                        <p class="card-desc"> Born and raised in California, Eric Han graduated from Caltech and has sent multiple students to Ivy League and top Universities. 
-                                            Eric Han has been working with the youth for over 8 years, and is an expert in academic planning, college admissions, 
-                                            and student mentoring.
+                                        <p class="card-desc"> Eric Han is a graduate from Caltech with a double B.S. in both Computer Science and Business Economics and Management.
+                                            His past experiences include both industry and academic work, writing large software applications for Amazon, NASA JPL, and Fidelity.
+                                            Eric Han has over 8 years experience in education, and has sent many students to Ivy League and other top Universities.
                                         </p>
                                     </div>
                                     <button class="card-btn">Back</button>
@@ -79,7 +83,7 @@
                             </div>
                         </div>
                         <!-- gallery item start -->
-                        <div id="card" class="gallery-item cs">
+                        <div id="card" class="gallery-item ma ph cc">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
                                     <img src="static/images/default_portrait.png" alt="Avatar" style="width:100%;">
@@ -95,15 +99,14 @@
                                     <div class="card-back-top">
                                         <h2 class="card-p">Dennis Raush</h2>
                                         <p class="title">Program Director</p>
+                                        <p class="card-info1">AP Calculus</p>
                                         <p class="card-info1">AP Physics</p>
-                                        <p class="card-info1">SAT/ACT</p>
                                         <p class="card-info1">College Counseling</p>
                                         <!-- <p class="card-info">eyhan@caltech.edu</p> -->
                                         <p class="card-desc"> 
-                                            Born and raised in San Diego, California, Dennis Raush graduated from Caltech and specializes in astrophysics research. 
-                                            Some of his most recent work involves writing simulations at NASA JPL to aide in the search for Planet X.
-                                            Dennis Raush has been teaching for over 6 years, and is an expert in academic planning, college admissions, 
-                                            and student mentoring.
+                                            Born and raised in San Diego, Dennis Raush is a senior at Caltech with a B.S. in Information Data Science and specializes in 
+                                            astrophysics research. Some of his most recent work involves writing simulations for Batygin Lab to aide in the search for 
+                                            Planet X. Dennis Raush has been teaching for over 6 years, and is an expert in academic planning, college admissions, and student mentoring.
                                         </p>
                                     </div>
                                     <button class="card-btn">Back</button>
@@ -112,10 +115,10 @@
                         </div>
                         <!-- gallery item end -->
                         <!-- gallery item start -->
-                        <div id="card" class="gallery-item cs">
+                        <div id="card" class="gallery-item ma">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
-                                    <img src="static/images/default_portrait.png" alt="Avatar" style="width:100%;">
+                                    <img src="static/images/ely_portrait2.png" alt="Avatar" style="width:100%;">
                                     <div class="card-front-txt">
                                         <h2 class="card-p">Ely Jrade</h2>
                                         <p class="title">Program Director</p>
@@ -130,12 +133,43 @@
                                         <p class="title">Program Director</p>
                                         <p class="card-info1">AP Calculus</p>
                                         <p class="card-info1">AP Statistics</p>
-                                        <p class="card-info1">High School Mathematics</p>
+                                        <p class="card-info1">High School and College Mathematics</p>
                                         <!-- <p class="card-info">eyhan@caltech.edu</p> -->
                                         <p class="card-desc"> 
-                                            Born and raised in California, Ely Jrade graduated from Caltech with a degree in Mathematics. and specializes in research
-                                            in multidimensional metric spaces.
-                                            Ely Jrade has been working with the youth for over 8 years, and is an expert in academic planning, college admissions, 
+                                            Born and raised in California, Ely Jrade is a senior at Caltech with a B.S. in Mathematics. He loves research and specializes
+                                            in descriptive set theory, computability theory, and algebraic topology. After graduating, Ely hopes to continue on pursuing
+                                            a Masters in Mathematics.
+                                            Ely Jrade is an expert in academic planning, college admissions, and student mentoring.
+                                        </p>
+                                    </div>
+                                    <button class="card-btn">Back</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- gallery item end -->
+                        <!-- gallery item start -->
+                        <div id="card" class="gallery-item ph ch st">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="static/images/sam_portrait.png" alt="Avatar" style="width:100%;">
+                                    <div class="card-front-txt">
+                                        <h2 class="card-p">Sam Senzon</h2>
+                                        <p class="title">Program Director</p>
+                                        <p class="card-info">Head of Test Prep</p>
+                                        <p class="card-info">ssenzon@caltech.edu</p>
+                                    </div>
+                                    <button class="card-btn">More</button>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div class="card-back-top">
+                                        <h2 class="card-p">Sam Senzon</h2>
+                                        <p class="title">Program Director</p>
+                                        <p class="card-info1">SAT/ACT</p>
+                                        <p class="card-info1">AP Physics</p>
+                                        <p class="card-info1">AP Chemistry</p>
+                                        <!-- <p class="card-info">eyhan@caltech.edu</p> -->
+                                        <p class="card-desc"> Born and raised in New Jersey, Sam Senzon graduated from Caltech and has sent multiple students to Ivy League and top Universities. 
+                                            Sam Senzon has been working with the youth for over 8 years, and is an expert in academic planning, college admissions, 
                                             and student mentoring.
                                         </p>
                                     </div>
@@ -145,7 +179,7 @@
                         </div>
                         <!-- gallery item end -->
                         <!-- gallery item start -->
-                        <div id="card" class="gallery-item standardized">
+                        <div id="card" class="gallery-item cs">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
                                     <img src="static/images/krishn_portrait.png" alt="Avatar" style="width:100%;">
@@ -176,38 +210,7 @@
                         </div>
                         <!-- gallery item end -->
                         <!-- gallery item start -->
-                        <div id="card" class="gallery-item ap">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img src="static/images/default_portrait.png" alt="Avatar" style="width:100%;">
-                                    <div class="card-front-txt">
-                                        <h2 class="card-p">Sam Senzon</h2>
-                                        <p class="title">Teacher</p>
-                                        <p class="card-info">Head of Math</p>
-                                        <p class="card-info">ssenzon@caltech.edu</p>
-                                    </div>
-                                    <button class="card-btn">More</button>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="card-back-top">
-                                        <h2 class="card-p">Sam Senzon</h2>
-                                        <p class="title">Teacher</p>
-                                        <p class="card-info1">AP Physics</p>
-                                        <p class="card-info1">AP Calculus</p>
-                                        <p class="card-info1">SAT/ACT</p>
-                                        <!-- <p class="card-info">eyhan@caltech.edu</p> -->
-                                        <p class="card-desc"> Born and raised in New Jersey, Sam Senzon graduated from Caltech and has sent multiple students to Ivy League and top Universities. 
-                                            Sam Senzon has been working with the youth for over 8 years, and is an expert in academic planning, college admissions, 
-                                            and student mentoring.
-                                        </p>
-                                    </div>
-                                    <button class="card-btn">Back</button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- gallery item end -->
-                        <!-- gallery item start -->
-                        <div id="card" class="gallery-item standardized">
+                        <div id="card" class="gallery-item cs st ma">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
                                     <img src="static/images/default_portrait.png" alt="Avatar" style="width:100%;">

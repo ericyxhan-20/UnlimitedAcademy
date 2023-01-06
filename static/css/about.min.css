@@ -291,15 +291,15 @@ img{
   line-height:0;
   margin-top:8%;
   font-weight:450;
-  font-size:min(2.5vw,22px);
+  font-size:max(min(1.5vw,25px),20px);
 }
 .card-info{
   line-height:min(.8vw, 15px);
   font-weight:300;
-  font-size:min(1.5vw,16px);
+  font-size:min(2.5vw,18px);
 }
 .card-info1{
-  line-height:min(35%, 28px);
+  line-height: min(0.3vw,8px);
   font-weight:300;
   font-size:min(1.5vw,16px);
 }
