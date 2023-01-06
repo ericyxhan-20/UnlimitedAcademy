@@ -303,6 +303,16 @@ img{
   font-weight:300;
   font-size:min(1.5vw,16px);
 }
+table{
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+table td{
+  /* line-height: min(0.3vw,8px); */
+  font-weight:300;
+  font-size:min(1.5vw,16px);
+  word-wrap:break-word;
+}
 .card-desc{
   margin-top:-10px;
   font-size:min(1.4vw,18px);
@@ -347,5 +357,18 @@ img{
   .card-desc{
     margin-top: -1vw;
     font-size:max(3.5vw, 16px);
+  }
+}
+@media screen and (max-width:480px){
+  .card-p{
+    margin-top:10%;
+  }
+  .card-info1{
+    line-height: 0.2vw;
+    font-size:3vw;
+  }
+  .card-desc{
+    margin-top: -1vw;
+    font-size:12px;
   }
 }
