@@ -354,7 +354,7 @@ table td{
     font-size:min(4.5vw,32px);
   }
   .card-desc{
-    margin-top: -1vw;
+    margin-top: -2vw;
     font-size:max(3.5vw, 16px);
   }
 }
@@ -367,7 +367,7 @@ table td{
     font-size:3vw;
   }
   .card-desc{
-    margin-top: -1vw;
+    margin-top: -2vw;
     font-size:13px;
   }
 }
