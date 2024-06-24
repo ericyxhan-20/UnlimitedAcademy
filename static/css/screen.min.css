@@ -203,7 +203,7 @@ html{box-sizing: border-box;}
   float:left;
   text-align:right;padding:8vw 0;
 }
-.services__news{width:64%;height:21.5vw;padding:6% 8% 0 0;background-color:#494949;background-image:url(../images/bg/news.jpg);background-position:left bottom;background-repeat:no-repeat;-webkit-background-size:100% 50%;background-size:100% 50%;float:left}
+.services__news{width:64%;height:21.5vw;padding:6% 8% 0 0;background-color:#494949;background-image:url(../images/bg/news.jpg);background-position:left top;background-repeat:no-repeat;-webkit-background-size:100% 100%;background-size:100% 100%;float:left}
 .services__subscribe{display:inline-flex;position:relative;width:34%;height:21.5vw;max-width:540px;float:right;text-align:right;top:-100px;}
 .services__subscribe
 .subscribe-form{margin:2% 0 1.5% 0}
